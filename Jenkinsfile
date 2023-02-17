@@ -13,9 +13,9 @@ pipeline {
             echo '✅Testing completed' 
         }
     }
-    stage('Deploy'
+    stage('Deploy'){
         steps{
-            echo 'Deploying..'
+            eho 'Deploying..'
             echo '✅ Deployment successful'
         }
     }
